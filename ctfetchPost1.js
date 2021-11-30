@@ -6,7 +6,7 @@ fetch('https://api217.crowdtwist.com/v2/users/alexrewards99@gmail.com/activities
         method: 'POST',
         body: JSON.stringify(todo),
         headers: {
-            'Content-type': 'application/json; charset=UTF-8'
+           'Content-type': 'application/json; charset=UTF-8'
         }
     })
     .then(response => response.json())
